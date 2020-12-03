@@ -1,0 +1,22 @@
+Sudo su
+Password : *******
+
+vi Day 15
+
+#! /var/bin
+$ cat myscript.ksh
+ssh -l root HOSTNAME
+echo "WELCOME to ROOT"
+grep "authentication failure"/var/log/secure | cut -d'=' -f8 | sort | uniq -c
+
+$ date -d " 04-Dec-2020 03:08:45"
+$ date --date="04-Dec-2020"
+fi
+
+
+session optional pam_exec.so /bin/bash /path/to/your/script.sh
+
+we should add our file here (/etc/profile.d)
+
+$ sh myscript.ksh >> myscript.log
+
